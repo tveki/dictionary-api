@@ -32,12 +32,20 @@ public class Language {
         this.locale = locale;
     }
 
-    //ISO 639 language code (2 letters)
+    /*
+     *  ISO 639-1 language code (2 letters)
+     *  see at http://en.wikipedia.org/wiki/ISO_639-1
+     *
+     */
     public String getISO2Code() {
         return locale.getLanguage();
     }
 
-    //ISO 639-3 language code (3 letters)
+    /*
+     *  ISO 639-3 language code (3 letters)
+     *  see at http://en.wikipedia.org/wiki/List_of_ISO_639-3_codes
+     *
+     */
     public String getISO3Code() {
         return locale.getISO3Language();
     }
@@ -55,8 +63,8 @@ public class Language {
     }
 
     public static Language byISO2(String code) {
-        for (Language lang : values()){
-            if (lang.getISO2Code().equals(code)){
+        for (Language lang : values()) {
+            if (lang.getISO2Code().equals(code)) {
                 return lang;
             }
         }
@@ -64,8 +72,8 @@ public class Language {
     }
 
     public static Language byISO3(String code) {
-        for (Language lang : values()){
-            if (lang.getISO3Code().equals(code)){
+        for (Language lang : values()) {
+            if (lang.getISO3Code().equals(code)) {
                 return lang;
             }
         }
