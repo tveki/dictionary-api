@@ -1,0 +1,350 @@
+{
+    "result": "ok",
+    "authors": {
+        "35": {
+            "U": "http://omegawiki.org",
+            "id": 35,
+            "N": "omegawiki.org",
+            "url": "https://glosbe.com/source/35"
+        },
+        "1": {
+            "U": "http://en.wiktionary.org",
+            "id": 1,
+            "N": "en.wiktionary.org",
+            "url": "https://glosbe.com/source/1"
+        },
+        "60172": {
+            "U": "http://www.omegawiki.org/",
+            "id": 60172,
+            "N": "omegawiki",
+            "url": "https://glosbe.com/source/60172"
+        },
+        "25018": {
+            "U": "http://glosbe.com",
+            "id": 25018,
+            "N": "GlosbeResearch",
+            "url": "https://glosbe.com/source/25018"
+        },
+        "20": {
+            "U": "http://www.slowniki.org.pl/",
+            "id": 20,
+            "N": "Jerzy Kazojc",
+            "url": "https://glosbe.com/source/20"
+        },
+        "2695": {
+            "U": "http://dumps.wikimedia.org/enwiktionary/latest/enwiktionary-latest-pages-articles.xml.bz2",
+            "id": 2695,
+            "N": "Wiktionary",
+            "url": "https://glosbe.com/source/2695"
+        },
+        "69425": {
+            "U": "",
+            "id": 69425,
+            "N": "plwiktionary.org",
+            "url": "https://glosbe.com/source/69425"
+        },
+        "90": {
+            "U": "",
+            "id": 90,
+            "N": "Admin",
+            "url": "https://glosbe.com/source/90"
+        }
+    },
+    "dest": "hu",
+    "phrase": "dog",
+    "tuc": [{
+            "authors": [69425],
+            "meaningId": 6963456550501831009,
+            "meanings": [{
+                    "text": "animal",
+                    "language": "en"
+                }, {
+                    "text": "A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",
+                    "language": "en"
+                }, {
+                    "text": "animal",
+                    "language": "en"
+                }],
+            "phrase": {
+                "text": "kutya",
+                "language": "hu"
+            }
+        }, {
+            "authors": [2695],
+            "meaningId": 1742619173585432496,
+            "meanings": [{
+                    "text": "animal",
+                    "language": "en"
+                }, {
+                    "text": "A common four-legged animal, especially kept by people as a pet or to hunt or guard things.",
+                    "language": "en"
+                }, {
+                    "text": "animal",
+                    "language": "en"
+                }],
+            "phrase": {
+                "text": "eb",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": -1373579816897128170,
+            "phrase": {
+                "text": "esztergaszíj",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": 3004066968163083114,
+            "phrase": {
+                "text": "esztergaszív",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": -2086766112774024377,
+            "phrase": {
+                "text": "fickó",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": 927086126740599142,
+            "phrase": {
+                "text": "hím",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": -6608458844071167373,
+            "phrase": {
+                "text": "jártató",
+                "language": "hu"
+            }
+        }, {
+            "authors": [25018],
+            "meaningId": 8840366629913872785,
+            "phrase": {
+                "text": "kampó",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": -3141677760460645212,
+            "phrase": {
+                "text": "kanfarkas",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": -1805133540107584510,
+            "phrase": {
+                "text": "nyargaló",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": 8878325090671656255,
+            "phrase": {
+                "text": "padszolga",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": 7251898105466359424,
+            "phrase": {
+                "text": "tuskóbak",
+                "language": "hu"
+            }
+        }, {
+            "authors": [20],
+            "meaningId": 112269270153883176,
+            "phrase": {
+                "text": "vaskapocs",
+                "language": "hu"
+            }
+        }, {
+            "authors": [25018],
+            "meaningId": 1553395407189977887,
+            "phrase": {
+                "text": "üldöz",
+                "language": "hu"
+            }
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(transitive) To follow in an annoying way, to constantly be affected by.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(slang, almost always in the plural) feet.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [90],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "to spy after someone",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "A metal support for logs in a fireplace.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [35],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "An iron for holding wood in a fireplace.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(humorous) Not god",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "morally reprehensible person, &#39;&#39;&#39;See also scoundrel&#39;&#39;&#39;",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "An animal, member of the genus Canis (probably descended from the common wolf) that has been domesticated for thousands of years; occurs in many breeds. Scientific name: Canis lupus familiaris.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(transitive, nautical) To fasten a hatch securely.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "Any of various mechanical devices for holding, gripping, or fastening something, particularly with a tooth-like projection.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(intransitive, with &#39;&#39;&#39;up&#39;&#39;&#39; ) To position oneself on all fours, after the manner of a dog - probably related to doggy style.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(intransitive, transitive) To intentionally restrict one&#39;s productivity as employee; to work at the slowest rate that goes unpunished.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(poker slang) Underdog",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [60172],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "A dull, unattractive girl or woman.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(transitive) To pursue with the intent to catch.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(slang) A coward",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(derogatory) A dull, unattractive girl or woman.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "&quot;A click or pallet adapted to engage the teeth of a ratchet-wheel, to restrain the back action; a click or pawl.&quot; (See also: ratchet, windlass)",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(transitive, emerging usage in UK) To watch, or participate, in sexual activity in a public place, on the pretence of &#39;&#39;&#39;walking the dog&#39;&#39;&#39; ; see also dogging.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(derogatory) Someone who is morally reprehensible.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "A hot dog.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "male dog",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "(slang) A man.",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "A male dog, wolf or fox, as opposed to a bitch (a female dog, wolf or fox.)",
+                    "language": "en"
+                }]
+        }, {
+            "authors": [1],
+            "meaningId": null,
+            "meanings": [{
+                    "text": "dull, unattractive girl or woman",
+                    "language": "en"
+                }]
+        }],
+    "from": "en"
+}
