@@ -5,9 +5,9 @@
  */
 package org.tveki.glosbe.dictionary;
 
-import org.junit.Test;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertFalse;
 import org.junit.Before;
+import org.junit.Test;
 import org.tveki.dictionary.api.Dictionary;
 import org.tveki.dictionary.api.Language;
 import org.tveki.dictionary.api.TranslateRequest;
@@ -73,7 +73,12 @@ public class GlosbeDictionaryTest {
     private void print(TranslateResponse response){
         System.out.println("----------------------------------");
         System.out.printf("phrase=%s (%s -> %s)%n", response.getPhrase(), response.getFrom().getISO2Code(), response.getTo().getISO2Code());
+        System.out.println("translations:");
         for (String str : response.getTranslations()){
+            System.out.println(str);
+        }
+        System.out.println("meanings:");
+        for (String str : response.getMeanings()){
             System.out.println(str);
         }
     }

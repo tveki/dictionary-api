@@ -18,6 +18,7 @@ import org.tveki.dictionary.api.Language;
 import org.tveki.dictionary.api.TranslateRequest;
 import org.tveki.dictionary.api.TranslateResponse;
 import org.tveki.glosbe.dictionary.model.GlosbeResponse;
+import org.tveki.glosbe.dictionary.model.Meaning;
 import org.tveki.glosbe.dictionary.model.Tuc;
 
 /**
@@ -28,16 +29,24 @@ public class GlosbeDictionary implements Dictionary {
 
     private static final Logger LOG = Logger.getLogger(GlosbeDictionary.class.getName());
 
+
+    public static final String GLOSBE_TRANSLATE_URI = "https://glosbe.com/gapi/translate";
+    public static final String FROM = "from";
+    public static final String DEST = "dest";
+    public static final String FORMAT = "format";
+    public static final String PRETTY = "pretty";
+    public static final String PHRASE = "phrase";
+
     @Override
     public TranslateResponse translate(TranslateRequest request) {
         Client client = ClientBuilder.newClient();
 
         URI uri = createUriBuilder()
-                .queryParam("from", request.getFrom().getISO3Code())
-                .queryParam("dest", request.getTo().getISO3Code())
-                .queryParam("format", "json")
-                .queryParam("pretty", "true")
-                .queryParam("phrase", request.getPhrase())
+                .queryParam(FROM, request.getFrom().getISO3Code())
+                .queryParam(DEST, request.getTo().getISO3Code())
+                .queryParam(FORMAT, "json")
+                .queryParam(PRETTY, "true")
+                .queryParam(PHRASE, request.getPhrase())
                 .build();
 
         WebTarget target = client.target(uri);
@@ -61,13 +70,16 @@ public class GlosbeDictionary implements Dictionary {
             if (tuc.getPhrase() != null) {
                 translateResponse.addTranslation(tuc.getPhrase().getText());
             }
+            for (Meaning meaning : tuc.getMeanings()){
+                translateResponse.addMeaning(meaning.getText());
+            }
         }
 
         return translateResponse;
     }
 
     protected String getBaseUri() {
-        return "https://glosbe.com/gapi/translate";
+        return GLOSBE_TRANSLATE_URI;
     }
 
     protected UriBuilder createUriBuilder() {

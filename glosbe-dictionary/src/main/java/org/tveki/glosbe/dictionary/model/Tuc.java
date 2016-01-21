@@ -10,6 +10,7 @@ import org.codehaus.jackson.annotate.JsonIgnoreProperties;
 public class Tuc {
 
     private List<Long> authors = new ArrayList<>();
+    private List<Meaning> meanings = new ArrayList<>();
     private Long meaningId;
     private Phrase phrase;
 
@@ -35,6 +36,14 @@ public class Tuc {
 
     public void setPhrase(Phrase phrase) {
         this.phrase = phrase;
+    }
+
+    public List<Meaning> getMeanings() {
+        return meanings;
+    }
+
+    public void setMeanings(List<Meaning> meanings) {
+        this.meanings = meanings;
     }
 
 }

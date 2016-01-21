@@ -15,9 +15,14 @@ import java.util.List;
 public class TranslateResponse extends TranslateObject {
 
     private List<String> translations = new ArrayList<>();
+    private List<String> meanings = new ArrayList<>();
 
     public void addTranslation(String translation){
         translations.add(translation);
+    }
+
+    public void addMeaning(String meaning){
+        meanings.add(meaning);
     }
 
     public List<String> getTranslations() {
@@ -26,6 +31,14 @@ public class TranslateResponse extends TranslateObject {
 
     public void setTranslations(List<String> translations) {
         this.translations = translations;
+    }
+
+    public List<String> getMeanings() {
+        return meanings;
+    }
+
+    public void setMeanings(List<String> meanings) {
+        this.meanings = meanings;
     }
 
 }
