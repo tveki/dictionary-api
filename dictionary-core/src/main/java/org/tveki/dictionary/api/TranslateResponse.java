@@ -12,7 +12,7 @@ import java.util.List;
  *
  * @author tveki
  */
-public class TranslateResponse extends TranslateObject {
+public class TranslateResponse extends TranslationTask {
 
     private List<String> translations = new ArrayList<>();
     private List<String> meanings = new ArrayList<>();

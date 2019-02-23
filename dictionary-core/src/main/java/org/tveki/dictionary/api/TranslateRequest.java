@@ -9,6 +9,6 @@ package org.tveki.dictionary.api;
  *
  * @author tveki
  */
-public class TranslateRequest extends TranslateObject {
+public class TranslateRequest extends TranslationTask {
 
 }
