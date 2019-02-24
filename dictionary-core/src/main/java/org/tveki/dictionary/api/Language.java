@@ -17,15 +17,17 @@ public class Language {
 
     public static final Language ENGLISH = new Language(Locale.ENGLISH);
     public static final Language GERMAN = new Language(Locale.GERMAN);
-    public static final Language FRENCH = new Language(Locale.FRENCH);
+    public static final Language SPANISH = new Language(new Locale("es", "ES"));
     public static final Language ITALIAN = new Language(Locale.ITALIAN);
+    public static final Language FRENCH = new Language(Locale.FRENCH);
     public static final Language HUNGARIAN = new Language(new Locale("hu"));
 
     private final static Language[] cache = {
         ENGLISH,
         GERMAN,
-        FRENCH,
+        SPANISH,
         ITALIAN,
+        FRENCH,
         HUNGARIAN};
 
     public Language(Locale locale) {
